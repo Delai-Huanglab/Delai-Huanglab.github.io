@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-**News: Our lab is going to open at the Zhejiang University (ZJU)!** Join us! 
+**News: Our lab will be opening at the Zhejiang University (ZJU)!** Join us! 
 
 We have two overarching goals: first, 
 **to understand cell fate decision**, by identifying key factors driving cell fate transition. Second, **to improve fish traits** including ornament, growth rate, stress resistance etc. 
