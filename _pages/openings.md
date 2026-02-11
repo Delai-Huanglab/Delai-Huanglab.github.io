@@ -1,9 +1,9 @@
 ---
-title: "Huang Lab - Openings"
+title: "Huang Lab - Vacancies"
 layout: textlay
-excerpt: "Openings"
+excerpt: "Vacancies"
 sitemap: false
-permalink: /openings
+permalink: /vacancies
 ---
 
 # Open positions
