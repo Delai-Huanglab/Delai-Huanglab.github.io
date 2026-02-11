@@ -25,7 +25,7 @@
     display: PNAS (2025)
   highlight: 1
 
-  - title: "Capn3b-deficient zebrafish model reveals a key role of autoimmune response in LGMDR1"
+- title: "Capn3b-deficient zebrafish model reveals a key role of autoimmune response in LGMDR1"
   image: JGG24.jpg
   description: How do cell types convert? We identified signaling pathways/transcription factors involved in melanophore trans-differentiation to leucophore in zebrafish. 
   authors: Yayue Chen(co-first), Delai Huang(co-first), Aixuan Xie, Ying Shan, Shuyi Zhao, Ce Gao, Jun Chen, Hui Shi, Weihuan Fang, Jinrong Peng
@@ -43,12 +43,12 @@
     display: eLife (2021)
   highlight: 1
 
-  - title: "Phosphorylation of Def regulates nucleolar p53 turnover and cell cycle progression through Def recruitment of Calpain3"
+- title: "Phosphorylation of Def regulates nucleolar p53 turnover and cell cycle progression through Def recruitment of Calpain3"
   image: Plosbio16.png
   description: Def-CAPN3 pathway serves as a nucleolar checkpoint for cell proliferation by selective inactivation of cell cycle-related substrates during organogenesis.
   authors: Yihong Guan(co-first), Delai Huang(co-first), Feng Chen, Ce Gao, Ting Tao, Hui Shi, Shuyi Zhao, Zuyuan Liao, Li Jan Lo, Yingchun Wang, Jun Chen, Jinrong Peng
   link:
-    url: Phosphorylation of Def Regulates Nucleolar p53 Turnover and Cell Cycle Progression through Def Recruitment of Calpain3
+    url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002555
     display: Plos Biology (2016)
   highlight: 1
 
