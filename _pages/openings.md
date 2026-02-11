@@ -1,7 +1,7 @@
 ---
 title: "Huang Lab - Vacancies"
 layout: textlay
-excerpt: "Vacancies"
+excerpt: "Openings"
 sitemap: false
 permalink: /vacancies
 ---
