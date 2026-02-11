@@ -1,7 +1,7 @@
 - title: "Cell type diversification and phenotype convergence underlying white fin-ornamentation of cyprinid fishes"
   image: PNAS26.jpg
   description: How do cell types diverge and phenotypes converge? We identified white pigment cells in zebrafish that also use pteridines to generate white ornamentation.
-  authors: **Delai Huang**, Tiffany Liu, Augusr A Carr, Pietro H de Mello, Yipeng Liang, Leah Shriver, François Chauvigné, Stephen L Johnson, Joan Cerdà, Gary J Patti, David M Parichy
+  authors: Delai Huang, Tiffany Liu, Augusr A Carr, Pietro H de Mello, Yipeng Liang, Leah Shriver, François Chauvigné, Stephen L Johnson, Joan Cerdà, Gary J Patti, David M Parichy
   link:
     url: https://www.biorxiv.org/content/10.64898/2025.12.26.696501v1.abstract
     display: bioRxiv (2026)
@@ -10,7 +10,7 @@
 - title: "Graded BMP signals modulate yellow and red color in fishes impacting adult pigment pattern and behavior"
   image: cur26.jpg
   description: We identified the mechanism of biased yellow vs. red coloration. Using CRISPR-Cas9, we generated all red fish, which is preferred by females in shoaling assays. 
-  authors: **Delai Huang**, Pietro L. H. de Mello, Tiffany Liu, Yu Liu, Emaan H. Kapadia, Yipeng Liang, Jianguo Lu,  View ORCID ProfileJoseph C Corbo, David M Parichy
+  authors: Delai Huang, Pietro L. H. de Mello, Tiffany Liu, Yu Liu, Emaan H. Kapadia, Yipeng Liang, Jianguo Lu,  View ORCID ProfileJoseph C Corbo, David M Parichy
   link:
     url: https://www.biorxiv.org/content/10.64898/2025.12.04.692427v1.abstract
     display: bioRxiv (2026)
@@ -19,7 +19,7 @@
 - title: "Agouti and BMP signaling drive a naturally occurring fate conversion of melanophores to leucophores in zebrafish"
   image: PNAS25.jpg
   description: How do cell types convert? We identified signaling pathways/transcription factors involved in melanophore trans-differentiation to leucophore in zebrafish. 
-  authors: **Delai Huang**, Emaan H Kapadia, Yipeng Liang, Leah P Shriver, Shengkun Dai, Gary J Patti, Bruno M Humbel, Vincent Laudet, David M Parichy
+  authors: Delai Huang, Emaan H Kapadia, Yipeng Liang, Leah P Shriver, Shengkun Dai, Gary J Patti, Bruno M Humbel, Vincent Laudet, David M Parichy
   link:
     url: https://www.pnas.org/doi/abs/10.1073/pnas.2424180122
     display: PNAS (2025)
@@ -28,7 +28,7 @@
   - title: "Capn3b-deficient zebrafish model reveals a key role of autoimmune response in LGMDR1"
   image: JGG24.jpg
   description: How do cell types convert? We identified signaling pathways/transcription factors involved in melanophore trans-differentiation to leucophore in zebrafish. 
-  authors: Yayue Chen, **Delai Huang (co-first)**, Aixuan Xie, Ying Shan, Shuyi Zhao, Ce Gao, Jun Chen, Hui Shi, Weihuan Fang, Jinrong Peng
+  authors: Yayue Chen(co-first), Delai Huang(co-first), Aixuan Xie, Ying Shan, Shuyi Zhao, Ce Gao, Jun Chen, Hui Shi, Weihuan Fang, Jinrong Peng
   link:
     url: https://www.sciencedirect.com/science/article/abs/pii/S1673852724002492
     display: Journal of Genetics and Genomics (2024)
@@ -37,7 +37,7 @@
 - title: "Development and genetics of red coloration in the zebrafish relative Danio albolineatus"
   image: elife21.jpg
   description: How do fish make red pigment? We identified enzymes that convert yellow carotenoids to red, using zebrafish relative D.albolineatus (pearl danio).
-  authors: **Delai Huang**, Victor M Lewis, Tarah N Foster, Matthew B Toomey, Joseph C Corbo, David M Parichy
+  authors: Delai Huang, Victor M Lewis, Tarah N Foster, Matthew B Toomey, Joseph C Corbo, David M Parichy
   link:
     url: https://elifesciences.org/articles/70253
     display: eLife (2021)
@@ -46,7 +46,7 @@
   - title: "Phosphorylation of Def regulates nucleolar p53 turnover and cell cycle progression through Def recruitment of Calpain3"
   image: Plosbio16.png
   description: Def-CAPN3 pathway serves as a nucleolar checkpoint for cell proliferation by selective inactivation of cell cycle-related substrates during organogenesis.
-  authors: Yihong Guan, **Delai Huang (co-first)**, Feng Chen, Ce Gao, Ting Tao, Hui Shi, Shuyi Zhao, Zuyuan Liao, Li Jan Lo, Yingchun Wang, Jun Chen, Jinrong Peng
+  authors: Yihong Guan(co-first), Delai Huang(co-first), Feng Chen, Ce Gao, Ting Tao, Hui Shi, Shuyi Zhao, Zuyuan Liao, Li Jan Lo, Yingchun Wang, Jun Chen, Jinrong Peng
   link:
     url: Phosphorylation of Def Regulates Nucleolar p53 Turnover and Cell Cycle Progression through Def Recruitment of Calpain3
     display: Plos Biology (2016)
