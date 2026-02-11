@@ -3,7 +3,7 @@ title: "Huang Lab - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
-permalink: /Openings
+permalink: /openings
 ---
 
 # Open positions
