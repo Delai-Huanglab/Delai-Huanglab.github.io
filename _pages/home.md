@@ -57,3 +57,7 @@ Our research pursues two overarching goals: **to uncover the mechanisms governin
 We are moving to [College of Animal Science](http://www.cas.zju.edu.cn/casenglish/15821/list.psp/) at [Zhejiang University](https://www.zju.edu.cn/english/)
 
 **We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://delai-huanglab.github.io/vacancies) **!**
+<figure class="fifth">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ZJU.png" style="width: 130px">
+ 
+</figure>
