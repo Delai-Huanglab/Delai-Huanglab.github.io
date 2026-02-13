@@ -8,7 +8,7 @@ permalink: /
 
 **News: Our lab will be opening at the Zhejiang University (ZJU)!** Join us! 
 
-Our research pursues two overarching goals: 
+Huang Lab @ ZJU pursues two overarching goals: 
 
 **First, to uncover the mechanisms governing cell fate decisions** using fish pigment cells
 
