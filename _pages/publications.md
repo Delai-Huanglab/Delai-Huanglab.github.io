@@ -10,7 +10,7 @@ permalink: /publications/
 # Publications
 
 
-**All papers are also available on [Google Scholar](https://scholar.google.com/citations?user=3GzZY6wAAAAJ&hl=en).**
+**All papers available on [Google Scholar](https://scholar.google.com/citations?user=3GzZY6wAAAAJ&hl=en).**
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
