@@ -9,7 +9,9 @@ permalink: /
 **News: Our lab will be opening at the Zhejiang University (ZJU)!** Join us! 
 
 Our research pursues two overarching goals: 
+
 **to uncover the mechanisms governing cell fate decisions** through identification of key regulatory factors
+
 **to improve fish traits**, including ornamentation, growth rate, and disease/stress resistance
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
