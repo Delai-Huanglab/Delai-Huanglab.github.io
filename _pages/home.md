@@ -10,9 +10,9 @@ permalink: /
 
 Our research pursues two overarching goals: 
 
-**to uncover the mechanisms governing cell fate decisions** through identification of key regulatory factors
+**First, to uncover the mechanisms governing cell fate decisions** using fish pigment cells
 
-**to improve fish traits**, including ornamentation, growth rate, and disease/stress resistance
+**Second, to improve fish economic traits**, including ornamentation, growth rate, and disease/stress resistance
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
