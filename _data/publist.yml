@@ -34,6 +34,24 @@
     display: Journal of Genetics and Genomics (2024)
   highlight: 1
 
+- title: "An 86 amino acids motif in CAPN3 is essential for formation of the nucleolus-localized Def-CAPN3 complex"
+  image: 
+  description: 
+  authors: Feng Ding(co-first), Delai Huang(co-first), Mingyun Wang, Jinrong Peng
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0006291X2200883X
+    display: Biochemical and Biophysical Research Communications (2022)
+  highlight: 0
+
+- title: "Nucleolus-localized Def-CAPN3 protein degradation pathway and its role in cell cycle control and ribosome biogenesis"
+  image: 
+  description: 
+  authors: Shuyi Zhao(co-first), Delai Huang(co-first), Jinrong Peng
+  link:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1673852721001971
+    display: Journal of Genetics and Genomics (2021)
+  highlight: 0
+
 - title: "Development and genetics of red coloration in the zebrafish relative Danio albolineatus"
   image: elife21.jpg
   description: How do fish make red pigment? We identified enzymes that convert yellow carotenoids to red, using zebrafish relative D.albolineatus (pearl danio).
