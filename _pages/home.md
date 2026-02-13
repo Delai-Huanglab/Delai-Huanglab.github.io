@@ -1,5 +1,5 @@
 ---
-title: "Huang Lab - Home"
+title: "Huang Lab @ Zhejiang University (ZJU)"
 layout: homelay
 excerpt: "Huang Lab at Zhejiang University (ZJU)."
 sitemap: false
