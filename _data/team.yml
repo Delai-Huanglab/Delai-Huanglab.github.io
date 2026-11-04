@@ -1,4 +1,4 @@
-Staff:
+staff:
 - name: Delai Huang ('Dylan' 黄得来)
   photo: Huang1.jpg
   info: PI
@@ -22,7 +22,7 @@ Staff:
   number_educ: 1
   education1: MS, Henan Normal University
 
-Current Students:
+current-students:
 - name: Zihao Zhuang (庄子豪)
   photo: zihao.jpg
   info: Undergrad
