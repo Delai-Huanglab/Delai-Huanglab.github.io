@@ -10,102 +10,147 @@ permalink: /team/
 
  **We are  looking for new Postdocs, PhD students and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
+Jump to [Staff](#Staff), [Current Students](#current-students), [Alumni](#alumni).
 
-Staff
-{% assign number_printed = 0 %} {% assign fac_array = site.data.team.faculty | sort: "lastname" %} {% for member in fac_array %}
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+## Staff
+{% assign number_printed = 0 %}
+{% assign fac_array = site.data.team.faculty | sort: "lastname" %}
+{% for member in fac_array %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
-
-{% endif %}
-{% if member.social.website %}
-
-{% if member.photo %}  {% endif %}
-
-{{ member.name }}
-{% else %}
-{% if member.photo %}  {% endif %}
-
-{{ member.name }}
+<div class="row">
 {% endif %}
 
-{%- include socialmedia.html -%} {{ member.info }}
+<div class="col-sm-6 clearfix">
+
+  {% if member.social.website %}
+
+  {% if member.photo %}
+  <a target="blank" href="{{ member.social.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  {% endif %}
+  <h4><a target="blank" href="{{ member.social.website }}">{{ member.name }}</a></h4>
+  {% else %}
+
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+
+  {% endif %}
+
+  {%- include socialmedia.html -%}
+  <i>{{ member.info }}</i> <!--<br>email: <{{ member.email }}></i> -->
+</div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
-
+</div>
 {% endif %}
+
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %} {% if even_odd == 1 %}
-
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
 {% endif %}
-Current Students
-{% assign number_printed = 0 %} {% assign stud_array = site.data.team.current-students | sort: "lastname" %}
+
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+## Current Students
+{% assign number_printed = 0 %}
+{% assign stud_array = site.data.team.current-students | sort: "lastname" %}
+<!-- Inspect a variable in liquid -->
+<!-- {{ stud_array[0] | inspect }} -->
 
 {% for member in stud_array%}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
-
-{% endif %}
-{% if member.social.website %}
-
-{% if member.photo %}  {% endif %}
-
-{{ member.name }}
-{% else %}
-{% if member.photo %}  {% endif %}
-
-{{ member.name }}
+<div class="row">
 {% endif %}
 
-{%- include socialmedia.html -%} {{ member.info }} {% if member.advisor.size == 1 %} Advisor: {{ member.advisor }} {% endif %}
+<div class="col-sm-6 clearfix">
 
-{% if member.advisor.size > 1 %} Advisor: {{ member.advisor[0] }}, {{ member.advisor[1] }} {% endif %}
+  {% if member.social.website %}
+
+  {% if member.photo %}
+  <a target="blank" href="{{ member.social.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  {% endif %}
+  <h4><a target="blank" href="{{ member.social.website }}">{{ member.name }}</a></h4>
+  {% else %}
+
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+  
+  {% endif %}
+  
+  {%- include socialmedia.html -%}
+  <i>{{ member.info }}</i><!--<br>email: <{{ member.email }}></i> -->
+  {% if member.advisor.size == 1 %}
+  Advisor: <i>{{ member.advisor }}</i>
+  {% endif %}
+
+  {% if member.advisor.size > 1 %} <!-- Generally a student is advised by max of 2 professors -->
+  Advisor: <i>{{ member.advisor[0] }}</i>, <i>{{ member.advisor[1] }}</i>
+  {% endif %}
+</div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
-
+</div>
 {% endif %}
+
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %} {% if even_odd == 1 %}
-
-{% endif %}
-{% if site.data.team.other-students.size > 0 %}
-
-Students
-{% endif %} {% assign number_printed = 0 %} {% for member in site.data.team.other-students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-{% endif %}
-{{ member.name }}
-{{ member.info }}
-{% assign number_printed = number_printed | plus: 1 %}
-
 {% if even_odd == 1 %}
-
+</div>
 {% endif %}
-{% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %} {% if even_odd == 1 %}
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+{% if site.data.team.other-students.size > 0 %}
 
-{% endif %}
-{% if site.data.team.visitor.size > 0 %}
-
-
-Alumni
+## Alumni
+<div class="row">
 {% for member in site.data.alumni %}
-{{ member.name }}
-{{ member.role }}
+<div class="col-sm-6 clearfix">
+  <h4>{{ member.name }}</h4>
+  <i> {{ member.role }}</i>
+</div>
 {% endfor %}
+</div>
 
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+<!-- ## Former visitors, BSc/ MSc students
+
+<div class="row">
+<div class="col-sm-4 clearfix">
+<h4>Visitors</h4>
+{% for member in site.data.alumni_visitors %}
+{{ member.name }}
+{% endfor %}
+</div>
+
+<div class="col-sm-4 clearfix">
+<h4>Master students</h4>
+{% for member in site.data.alumni_msc %}
+{{ member.name }}
+{% endfor %}
+</div>
+
+<div class="col-sm-4 clearfix">
+<h4>Bachelor Students</h4>
+{% for member in site.data.alumni_bsc %}
+{{ member.name }}
+{% endfor %}
+</div>
+
+</div> -->
 
