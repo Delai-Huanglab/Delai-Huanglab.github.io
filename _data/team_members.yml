@@ -1,3 +1,4 @@
+Staff:
 - name: Delai Huang ('Dylan' 黄得来)
   photo: Huang1.jpg
   info: PI
@@ -20,3 +21,11 @@
   email: 191309683@qq.com
   number_educ: 1
   education1: MS, Henan Normal University
+
+Students:
+- name: Zihao Zhuang (庄子豪)
+  photo: zihao.jpg
+  info: Undergrad
+  email: 308967562@qq.com
+  number_educ: 0
+  education1: 
